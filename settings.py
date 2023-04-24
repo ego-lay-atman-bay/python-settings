@@ -2,6 +2,8 @@
 # Created by ego-lay-atman-bay
 # Under the GNU v3 license.
 # If used, please give credit
+# 
+# Repository: https://github.com/ego-lay-atman-bay/python-settings
 # ==================================
 
 __version__ = '1.0.0'
