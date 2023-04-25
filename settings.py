@@ -49,19 +49,15 @@ class Settings():
                         if isinstance(settings[setting], dict):
                             try:
                                 if not isinstance(default[setting], dict):
-                                    print(setting)
                                     default[setting] = {}
                             except:
-                                print(setting)
                                 default[setting] = {}
                             
                             addSettings(settings[setting], default[setting])
                         else:
-                            print(setting)
                             default[setting] = settings[setting]
                 
                 addSettings(settings, this.settings)
-                print(this.settings)
             except:
                 pass
             this.save()
